@@ -98,7 +98,7 @@ public class MyAppEndpoint {
 
 [source, typescript]
 ----
-import * as appEndpoint from '../generated/MyAppEndpoint';
+import * as appEndpoint from 'Frontend/generated/MyAppEndpoint';
 
 const username = await appEndpoint.checkUser();
 
@@ -131,7 +131,7 @@ public class MyAppEndpoint {
 
 [source, typescript]
 ----
-import * as appEndpoint from '../generated/MyAppEndpoint';
+import * as appEndpoint from 'Frontend/generated/MyAppEndpoint';
 
 const isAdmin = await appEndpoint.checkUser().catch(() => false);
 
