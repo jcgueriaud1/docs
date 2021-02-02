@@ -7,6 +7,8 @@ layout: page
 
 = Creating a Simple Component Using the PolymerTemplate API
 
+*Usage of Lit based templates is recommended even though polymer based templates are available in the next LTS as deprecated.*
+
 In this section, we demonstrate how to create a simple component using only the `PolymerTemplate` API.
 
 Our example:

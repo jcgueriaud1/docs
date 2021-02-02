@@ -4,7 +4,9 @@ order: 9
 layout: page
 ---
 
-= Combining PolymerTemplates and Binders
+= PolymerTemplate, Combining Templates and Binders
+
+*Usage of Lit based templates is recommended even though polymer based templates are available in the next LTS as deprecated.*
 
 `Binder` is a server-side construct and you can therefore not use it in a Polymer template. It is, however, possible to create a form using the `PolymerTemplate` API and to connect the component to a `Binder`. The process is similar to using binders with declared components. 
 

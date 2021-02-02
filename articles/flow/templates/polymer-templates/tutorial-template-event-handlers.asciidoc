@@ -7,6 +7,8 @@ layout: page
 
 = Handling User Events in a PolymerTemplate
 
+*Usage of Lit based templates is recommended even though polymer based templates are available in the next LTS as deprecated.*
+
 == Defining Client-side Event Handlers
 
 `PolymerTemplate` defines special syntax to attach client-side event handlers to elements. Use the `on-_eventname_="_methodName_"` syntax to define the handler. Note that the method name should not have any arguments or parenthesis.

@@ -98,17 +98,30 @@ The Vaadin documentation is arranged in the following sections and we recommend 
 * <<web-components/creating-an-in-project-web-component#,Creating an In-project Web Component>>
 * <<web-components/introduction-to-webcomponents#,Introduction to Web Components>>
 
-== Creating Polymer Templates
-* <<polymer-templates/tutorial-template-basic#,Creating A Simple Component Using the Template API>>
-* <<polymer-templates/tutorial-template-components#,Binding Components from PolymerTemplate>>
-* <<polymer-templates/tutorial-template-subtemplate#,Using sub-template from PolymerTemplate>>
-* <<polymer-templates/tutorial-template-components-in-slot#,Using <slot> in PolymerTemplates>>
-* <<polymer-templates/tutorial-template-event-handlers#,Handling User Events in a PolymerTemplate>>
-* <<polymer-templates/tutorial-template-bindings#,Binding Model Data in a PolymerTemplate>>
-** <<polymer-templates/tutorial-template-bindings#two-way-binding,Two-way data binding>>
-* <<polymer-templates/tutorial-template-list-bindings#,Using List of Items in a PolymerTemplate with template repeater>>
-* <<polymer-templates/tutorial-template-model-bean#,Using Beans with a PolymerTemplate Model>>
-* <<polymer-templates/tutorial-template-model-encoders#,Using Model Encoders with a PolymerTemplate Model>>
+== Building Views Using Templates
+* <<templates/intro#,Using Templates from Server-side Java Code>>
+* <<templates/basic#,Creating a Simple Component Using the Template API>>
+* <<templates/components#,Binding Template Components>>
+* <<templates/and-binder#,Combining Templates and Binders>>
+* <<templates/subtemplate#,Using sub-templates>>
+* <<templates/components-in-slot#,Dynamically Adding Server-side Components to Templates>>
+* <<templates/styling-templates#,Styling Templates>>
+* <<templates/component-integration#,Detecting Component Mappings>>
+* <<templates/mapped-components-limitations#,Mapped Components Limitations>>
+
+=== Building Views Using Polymer Templates
+*Usage of Lit based templates is recommended even though polymer based templates are still be available in the next LTS.*
+
+* <<templates/polymer-templates/tutorial-template-basic#,Creating A Simple Component Using the Template API>>
+* <<templates/polymer-templates/tutorial-template-components#,Binding Components from PolymerTemplate>>
+* <<templates/polymer-templates/tutorial-template-subtemplate#,Using sub-template from PolymerTemplate>>
+* <<templates/polymer-templates/tutorial-template-components-in-slot#,Using <slot> in PolymerTemplates>>
+* <<templates/polymer-templates/tutorial-template-event-handlers#,Handling User Events in a PolymerTemplate>>
+* <<templates/polymer-templates/tutorial-template-bindings#,Binding Model Data in a PolymerTemplate>>
+** <<templates/polymer-templates/tutorial-template-bindings#two-way-binding,Two-way data binding>>
+* <<templates/polymer-templates/tutorial-template-list-bindings#,Using List of Items in a PolymerTemplate with template repeater>>
+* <<templates/polymer-templates/tutorial-template-model-bean#,Using Beans with a PolymerTemplate Model>>
+* <<templates/polymer-templates/tutorial-template-model-encoders#,Using Model Encoders with a PolymerTemplate Model>>
 
 == Using Vaadin with Spring
 * <<spring/tutorial-spring-basic#,Use Vaadin with Spring>>
