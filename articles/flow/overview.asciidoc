@@ -110,7 +110,7 @@ The Vaadin documentation is arranged in the following sections and we recommend 
 * <<templates/mapped-components-limitations#,Mapped Components Limitations>>
 
 === Building Views Using Polymer Templates
-*Usage of Lit based templates is recommended even though polymer based templates are still be available in the next LTS.*
+*Usage of Lit based templates is recommended even though polymer based templates are available in the next LTS as deprecated.*
 
 * <<templates/polymer-templates/tutorial-template-basic#,Creating A Simple Component Using the Template API>>
 * <<templates/polymer-templates/tutorial-template-components#,Binding Components from PolymerTemplate>>
